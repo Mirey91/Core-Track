@@ -16,14 +16,14 @@ import "./App.css";
 function App() {
   return (
     <div className="layoutGrid">
-      <HashRouter>
+      <HashRouter basename={'/'}>
         <div className="layoutSidebar">
           <SideNav />
         </div>
         <Switch>
           <div className="layoutview">
             <Route exact path="/dashboard" component={Dashboard} />
-            <Route exact path="/usertask" component={UserTask} />
+            <Route exact path="/" component={UserTask} />
             <Route exact path="/timecounter/:i" component={TimeCounter} />
             <Route exact path="/userchart" component={UserChart} />
             <Route

@@ -15,12 +15,12 @@ function SideNav() {
             
          </div>
          <div className='sideNav_icono nav_grid2'>
-            <Link to="/dashboard">
+            <Link to="/">
              <i className="fas fa-home"></i>
             </Link>
          </div>
          <div className='sideNav_icono nav_grid3'>
-         <Link to="/usertask">
+         <Link to="/">
          <i className="fas fa-users"></i>
          </Link>
          </div>
