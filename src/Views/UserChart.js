@@ -4,7 +4,6 @@ import { useParams } from "react-router-dom";
 import Chart from "../Components/Chart";
 import './Styles/UserChart.css';
 
-import projects from "../projects.json";
 import items from "../Views/items.js";
 
 const COLORS = [
